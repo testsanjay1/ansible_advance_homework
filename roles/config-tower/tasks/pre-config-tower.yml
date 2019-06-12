@@ -10,7 +10,7 @@
 
 - name: Copy opentlc ssh keys
   copy:
-    src: "{{path_to_opentlc_key}}"
+    src: "{{user_cred_path}}"
     dest: /root/secret.pem
 
 
